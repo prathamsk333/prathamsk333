@@ -1,0 +1,23 @@
+[
+    {
+      "name": "John Doe",
+      "id": 1,
+      "position": "Software Engineer",
+      "dateJoined": "2022-01-15",
+      "salary": 60000
+    },
+    {
+      "name": "Alice Smith",
+      "id": 2,
+      "position": "HR Manager",
+      "dateJoined": "2021-08-20",
+      "salary": 70000
+    },
+    {
+      "name": "Bob Johnson",
+      "id": 3,
+      "position": "Marketing Specialist",
+      "dateJoined": "2023-03-10",
+      "salary": 55000
+    }
+  ]

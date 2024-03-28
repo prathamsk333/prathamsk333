@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900" rel="stylesheet"/>
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"/>
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+
+        html {
+            font-size: 62.5%;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 5rem 5rem 10rem;
+            line-height: 1.7;
+            font-family: 'Nunito Sans', sans-serif;
+            color: #555;
+            min-height: 100vh;
+            background: linear-gradient(to bottom right, #a337e6, #233bf4);
+        }
+
+        h1 {
+            font-family: 'Megrim', sans-serif;
+            font-size: 6rem;
+            color: white;
+            /* transform: skewY(-5deg); */
+            text-align: center;
+            position: relative;
+            word-spacing: 3px;
+        }
+
+        h1::before {
+            content: '';
+            display: block;
+            height: 65%;
+            width: 49%;
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            background: linear-gradient(to bottom, #a337e6, #233bf4);
+            opacity: 0.8;
+            z-index: -1;
+            transform: skewY(370deg) translate(-50%, -50%);
+        }
+
+        .container {
+            width: 95rem;
+            margin: 0 auto;
+        }
+
+        .cards-container {
+            margin-top: 8rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card {
+            background: white;
+            box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+            transition: all 0.5s;
+            flex: 0 0 30%;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.15);
+        }
+
+        .card__title-box {
+            background: linear-gradient(to bottom, #a337e6, #233bf4);
+            padding: 2rem;
+        }
+
+        .card__title {
+            font-family: 'Megrim', sans-serif;
+            color: white;
+            font-size: 3.25rem;
+            text-align: center;
+        }
+
+        .card__details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .card__detail-box {
+            margin-bottom: 1.5rem;
+        }
+
+        .card__detail-heading {
+            font-size: 2.5rem;
+            color: #333;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .card__button {
+            background-color: #79e17b;
+            color: white;
+            font-size: 1.6rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            padding: 1.5rem 3rem;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .card__button:hover {
+            background-color: #9be15d;
+        }
+
+        .not-organic {
+            display: none;
+        }
+        .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #233bf4;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+}
+
+    </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900" rel="stylesheet"/>
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/ear-of-maize_1f33d.png"/>
+    <style>
+        /* CSS styles from index.html */
+        /* Add additional styles here if needed */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Management System</h1>
+
+        <div class="cards-container">
+            <!-- Add a New Employee -->
+            <a href="add_employee.html" class="card">
+                <div class="card__title-box">
+                    <h2 class="card__title">Add a New Employee</h2>
+                </div>
+
+                <div class="card__details">
+                    <div class="card__detail-box">
+                        <button class="card__button">Add Employee</button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Record Attendance -->
+            <a href="record_attendance.html" class="card">
+                <div class="card__title-box">
+                    <h2 class="card__title">Record Attendance</h2>
+                </div>
+
+                <div class="card__details">
+                    <div class="card__detail-box">
+                        <button class="card__button">Record Attendance</button>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Process Payroll -->
+            <a href="process_payroll.html" class="card">
+                <div class="card__title-box">
+                    <h2 class="card__title">Process Payroll</h2>
+                </div>
+
+                <div class="card__details">
+                    <div class="card__detail-box">
+                        <button class="card__button">Process Payroll</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Designed by Pratham S Kore</p>
+    </footer>
+    
+</body>
+</html>
