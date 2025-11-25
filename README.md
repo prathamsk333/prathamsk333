@@ -1,8 +1,7 @@
 # 👋 Hi, I’m Pratham S Kore
 - My portfolio: [https://prathamsk.in](https://prathamsk.in/)
-- 👀 I’m interested in Web Development, Cloud Computing, and Data Structures & Algorithms (DSA)
+- 👀 I’m interested in Ml, DevOps, MlOps, Web Development, and Cloud Computing.
 - 🌱 I’m currently learning everything that sparks my interest
-- 💞️ I’m looking to collaborate on Web Development and Cloud-based projects
 - 📫 How to reach me: pratham.sk333@gmail.com
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I'm easy to get along with!
