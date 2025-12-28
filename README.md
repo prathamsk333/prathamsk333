@@ -26,29 +26,29 @@
     </a>
     &nbsp;
 
-    <!-- Email -->
-    <a href="mailto:hello@prathamsk.in">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="26"/>
-    </a>
-    &nbsp;
+<!-- Email -->
+<a href="mailto:hello@prathamsk.in">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="26"/>
+</a>
+&nbsp;
 
-    <!-- Portfolio -->
-    <a href="https://prathamsk.in">
-      <img src="https://img.shields.io/badge/Portfolio-4B5563?style=for-the-badge&logo=vercel&logoColor=white" height="26"/>
-    </a>
-  </p>
+<!-- Portfolio -->
+<a href="https://prathamsk.in">
+  <img src="https://img.shields.io/badge/Portfolio-4B5563?style=for-the-badge&logo=vercel&logoColor=white" height="26"/>
+</a>
+</p>
 
-      </td>
+  </td>
 
-      <!-- Right: Image -->
-      <td align="right" width="45%" style="vertical-align: middle;">
-        <img
-          src="https://i.pinimg.com/736x/e3/b2/90/e3b2903c0e06f9b1c0c8508ae0f0b926.jpg"
-          width="200"
-          alt="Keys to Happiness"
-        />
-      </td>
-    </tr>
+  <!-- Right: Image -->
+  <td align="center" width="45%" style="vertical-align: middle;">
+    <img
+      src="https://i.pinimg.com/736x/e3/b2/90/e3b2903c0e06f9b1c0c8508ae0f0b926.jpg"
+      width="200"
+      alt="Keys to Happiness"
+    />
+  </td>
+</tr>
   </table>
 
 </div>
